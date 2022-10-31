@@ -1,6 +1,7 @@
 public class Main {
     public static void main(String[] args) {
     //Задача 1
+        System.out.println ("Задача 1");
      var dog = 8;
      var cat = 3.6;
      var paper = 763789;
@@ -8,6 +9,7 @@ public class Main {
         System.out.println (cat);
         System.out.println (paper);
     //Задача 2
+        System.out.println ("Задача 2");
      dog = dog + 4;
      cat = cat+4;
      paper = paper + 4;
@@ -16,14 +18,17 @@ public class Main {
         System.out.println (paper);
      //Задача 3
         //При вычитании из целочисленного значения dog значения с точкой 3.5 выдается ошибка.
-        // 3.5 изменено на 3.
-     dog = dog - 3;
+        // Введена новая переменная dog1
+        System.out.println ("Задача 3");
+     var dog1 = 8.0;
+     dog1 = dog1 - 3.5;
      cat = cat - 1.6;
      paper = paper -7639;
-        System.out.println (dog);
+        System.out.println (dog1);
         System.out.println (cat);
         System.out.println (paper);
      //Задача 4
+        System.out.println ("Задача 4");
      var friend = 19;
         System.out.println(friend);
         friend = friend + 2;
@@ -31,6 +36,7 @@ public class Main {
         friend = friend / 7;
         System.out.println(friend);
      //Задача 5
+        System.out.println ("Задача 5");
         var frog = 3.5;
         System.out.println(frog);
         frog = frog * 10;
@@ -40,6 +46,7 @@ public class Main {
         frog = frog + 4;
         System.out.println(frog);
       //Задача 6
+        System.out.println ("Задача 6");
         var BoxerFirst = 78.2;
         var BoxerSecond = 82.7;
         var OverallWeight = BoxerFirst + BoxerSecond;
@@ -47,11 +54,13 @@ public class Main {
         var Difference = BoxerSecond - BoxerFirst;
         System.out.println("Разница между весами бойцов " + Difference + "кг.");
      //Задача 7
+        System.out.println ("Задача 7");
 var Raznitsa = BoxerSecond - BoxerFirst;
 System.out.println(Raznitsa);
 var Ostatok = BoxerSecond % BoxerFirst;
 System.out.println(Ostatok);
      //Задача 8
+        System.out.println ("Задача 8");
         var RabVremya = 640;
         var RabVemyaSotrudnika = 8;
         var Sotrudniki = RabVremya / RabVemyaSotrudnika;
