@@ -22,10 +22,10 @@ public class Main {
         System.out.println ("Задача 3");
      var dog1 = 8.0;
      dog1 = dog1 - 3.5;
-     cat = cat - 1.6;
-     paper = paper -7639;
         System.out.println (dog1);
+     cat = cat - 1.6;
         System.out.println (cat);
+     paper = paper -7639;
         System.out.println (paper);
      //Задача 4
         System.out.println ("Задача 4");
