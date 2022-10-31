@@ -47,27 +47,27 @@ public class Main {
         System.out.println(frog);
       //Задача 6
         System.out.println ("Задача 6");
-        var BoxerFirst = 78.2;
-        var BoxerSecond = 82.7;
-        var OverallWeight = BoxerFirst + BoxerSecond;
-        System.out.println("Общий вес двух бойцов " + OverallWeight + "кг.");
-        var Difference = BoxerSecond - BoxerFirst;
-        System.out.println("Разница между весами бойцов " + Difference + "кг.");
+        var boxerFirst = 78.2;
+        var boxerSecond = 82.7;
+        var overallWeight = boxerFirst + boxerSecond;
+        System.out.println("Общий вес двух бойцов " + overallWeight + "кг.");
+        var difference = boxerSecond - boxerFirst;
+        System.out.println("Разница между весами бойцов " + difference + "кг.");
      //Задача 7
         System.out.println ("Задача 7");
-var Raznitsa = BoxerSecond - BoxerFirst;
-System.out.println(Raznitsa);
-var Ostatok = BoxerSecond % BoxerFirst;
+var raznitsa = boxerSecond - boxerFirst;
+System.out.println(raznitsa);
+var Ostatok = boxerSecond % boxerFirst;
 System.out.println(Ostatok);
      //Задача 8
         System.out.println ("Задача 8");
-        var RabVremya = 640;
-        var RabVemyaSotrudnika = 8;
-        var Sotrudniki = RabVremya / RabVemyaSotrudnika;
-        System.out.println("Всего работников в компании – " + Sotrudniki + " человек");
-        var Sotrudniki2 = Sotrudniki + 94;
-        var RabVremya2 = Sotrudniki2 * RabVemyaSotrudnika;
-        System.out.println("Если в компании работает " + Sotrudniki2 + " человек, то всего " + RabVremya2 +
+        var rabVremya = 640;
+        var rabVemyaSotrudnika = 8;
+        var sotrudniki = rabVremya / rabVemyaSotrudnika;
+        System.out.println("Всего работников в компании – " + sotrudniki + " человек");
+        var sotrudniki2 = sotrudniki + 94;
+        var rabVremya2 = sotrudniki2 * rabVemyaSotrudnika;
+        System.out.println("Если в компании работает " + sotrudniki2 + " человек, то всего " + rabVremya2 +
                 " часов работы может быть поделено между сотрудниками");
 
 
