@@ -47,27 +47,23 @@ public class Main {
         System.out.println(frog);
       //Задача 6
         System.out.println ("Задача 6");
-        var boxerFirst = 78.2;
-        var boxerSecond = 82.7;
-        var overallWeight = boxerFirst + boxerSecond;
-        System.out.println("Общий вес двух бойцов " + overallWeight + "кг.");
-        var difference = boxerSecond - boxerFirst;
-        System.out.println("Разница между весами бойцов " + difference + "кг.");
+        var boxer1Weight = 78.2;
+        var boxer2Weight= 82.7;
+        System.out.println("Общий вес двух бойцов " + (boxer1Weight + boxer2Weight) + " кг.");
+        System.out.println("Разница между весами бойцов " + (boxer2Weight - boxer1Weight) + " кг.");
      //Задача 7
         System.out.println ("Задача 7");
-var raznitsa = boxerSecond - boxerFirst;
-System.out.println(raznitsa);
-var Ostatok = boxerSecond % boxerFirst;
-System.out.println(Ostatok);
+        System.out.println("Разница между весами бойцов (1 способ) " + (boxer2Weight - boxer1Weight) + " кг.");
+        System.out.println("Разница между весами бойцов (2 способ) " + (boxer2Weight % boxer1Weight) + " кг.");
      //Задача 8
         System.out.println ("Задача 8");
-        var rabVremya = 640;
-        var rabVemyaSotrudnika = 8;
-        var sotrudniki = rabVremya / rabVemyaSotrudnika;
-        System.out.println("Всего работников в компании – " + sotrudniki + " человек");
-        var sotrudniki2 = sotrudniki + 94;
-        var rabVremya2 = sotrudniki2 * rabVemyaSotrudnika;
-        System.out.println("Если в компании работает " + sotrudniki2 + " человек, то всего " + rabVremya2 +
+        var totalWorkingHours = 640;
+        var hoursePerDay = 8;
+        var totalEmployees = totalWorkingHours / hoursePerDay;
+        System.out.println("Всего работников в компании – " + totalEmployees + " человек");
+        totalEmployees = totalEmployees+ 94;
+        totalWorkingHours = totalEmployees * hoursePerDay;
+        System.out.println("Если в компании работает " + totalEmployees + " человек, то всего " + totalWorkingHours  +
                 " часов работы может быть поделено между сотрудниками");
 
 
